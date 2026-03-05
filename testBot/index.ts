@@ -28,7 +28,7 @@ if (envConfig.redis.url && 1 < 0) {
     client.redis = new JSONStore();
 } else client.redis = new MiniMap<string, string>();
 
-client.defaultVolume = 100;
+client.defaultVolume = 10;
 
 /**
  * ? In case you wanna provide node data via env, you can use the provided util for url parsing:
